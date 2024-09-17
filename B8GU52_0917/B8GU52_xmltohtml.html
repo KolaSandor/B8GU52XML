@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Órarend</title>
+    <style>
+        /* Általános stílusok */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h1 {
+            text-align: center;
+            color: #343a40;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        /* Táblázat stílusok */
+        table {
+            width: 90%;
+            max-width: 1200px;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 20px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #007bff;
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+
+        td {
+            border-bottom: 1px solid #dee2e6;
+            font-size: 14px;
+            color: #495057;
+        }
+
+        td:empty {
+            background-color: #f8f9fa;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        /* Cellák mérete */
+        td, th {
+            width: 16.6%;
+        }
+
+        td:first-child, th:first-child {
+            width: 10%;
+        }
+
+        /* Gomb stílusok */
+        .highlight {
+            background-color: #e9ecef;
+            font-weight: bold;
+            color: #343a40;
+        }
+
+        /* Reszponzív megjelenés */
+        @media (max-width: 768px) {
+            table {
+                width: 100%;
+                font-size: 12px;
+            }
+
+            th, td {
+                padding: 10px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+<table>
+    <thead>
+        <tr>
+            <th>Időpont</th>
+            <th>Hétfő</th>
+            <th>Kedd</th>
+            <th>Szerda</th>
+            <th>Csütörtök</th>
+            <th>Péntek</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>8:00 - 9:00</td>
+            <td>Oracle</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>9:00 - 10:00</td>
+            <td>Oracle</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>10:00 - 11:00</td>
+            <td></td>
+            <td>Xml</td>
+            <td>MesInt</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>11:00 - 12:00</td>
+            <td></td>
+            <td>Xml</td>
+            <td>MesInt</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>12:00 - 13:00</td>
+            <td>Korszerű inf</td>
+            <td>Xml</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>13:00 - 14:00</td>
+            <td>Korszerű inf</td>
+            <td>Oracle/Xml</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>14:00 - 15:00</td>
+            <td></td>
+            <td>Oracle/Webalk</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>15:00 - 16:00</td>
+            <td></td>
+            <td>Webalk</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>16:00 - 17:00</td>
+            <td></td>
+            <td>Korszerű inf/Webalk</td>
+            <td>MesInt</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>17:00 - 18:00</td>
+            <td></td>
+            <td>Korszerű inf/Webalk</td>
+            <td>MesInt</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
