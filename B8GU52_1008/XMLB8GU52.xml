@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<B8GU52_vendeglatas xmlns:xsi="http://www.w3.org">
+
+<etterem ekod="e1">
+    <nev>La Pergola</nev>
+    <cim>
+        <varos>Budapest</varos>
+        <utca>Andrássy út</utca>
+        <hazszam>42.</hazszam>
+    </cim>
+    <csillag>5</csillag>
+</etterem>
+
+<etterem ekod="e2">
+    <nev>Kakukk Vendéglő</nev>
+    <cim>
+        <varos>Pécs</varos>
+        <utca>Király utca</utca>
+        <hazszam>18.</hazszam>
+    </cim>
+    <csillag>3</csillag>
+</etterem>
+
+<foszakacs fkod="f1" e_f="e1">
+    <nev>Tóth László</nev>
+    <eletkor>45</eletkor>
+    <vegzettseg>Gastronomy Institute</vegzettseg>
+    <vegzettseg>Szakközépiskola</vegzettseg>
+</foszakacs>
+
+<foszakacs fkod="f2" e_f="e2">
+    <nev>Kis Tamás</nev>
+    <eletkor>50</eletkor>
+    <vegzettseg>Culinary Arts Academy</vegzettseg>
+</foszakacs>
+
+<rendeles e_k="e1" v_k="v1">
+    <osszeg>15000</osszeg>
+    <etel>Ravioli</etel>
+</rendeles>
+
+<rendeles e_k="e2" v_k="v1">
+    <osszeg>6000</osszeg>
+    <etel>Marhapörkölt</etel>
+</rendeles>
+
+<rendeles e_k="e2" v_k="v2">
+    <osszeg>7500</osszeg>
+    <etel>Gulyásleves</etel>
+</rendeles>
+
+<rendeles e_k="e1" v_k="v2">
+    <osszeg>13000</osszeg>
+    <etel>Rák carpaccio</etel>
+</rendeles>
+
+<gyakornok gykod="gy1" e_gy="e1">
+    <nev>Nagy Balázs</nev>
+    <gyakorlat>
+        <kezdete>2024-09-15</kezdete>
+        <idotartama>4 hónap</idotartama>
+    </gyakorlat>
+    <muszak>délután</muszak>
+    <muszak>este</muszak>
+</gyakornok>
+
+<gyakornok gykod="gy2" e_gy="e2">
+    <nev>Szalai Noémi</nev>
+    <gyakorlat>
+        <kezdete>2024-08-01</kezdete>
+        <idotartama>5 hónap</idotartama>
+    </gyakorlat>
+    <muszak>délelőtt</muszak>
+</gyakornok>
+
+<vendeg vkod="v1">
+    <nev>Molnár János</nev>
+    <eletkor>40</eletkor>
+    <cim>
+        <varos>Szeged</varos>
+        <utca>Kossuth Lajos utca</utca>
+        <hazszam>23</hazszam>
+    </cim>
+</vendeg>
+
+<vendeg vkod="v2">
+    <nev>Horváth Éva</nev>
+    <eletkor>30</eletkor>
+    <cim>
+        <varos>Miskolc</varos>
+        <utca>Petőfi Sándor utca</utca>
+        <hazszam>5</hazszam>
+    </cim>
+</vendeg>
+
+</B8GU52_vendeglatas>
