@@ -1,0 +1,63 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Orarned" , 
+    "type" : "object" ,
+    "properties": {
+        "KS_orarend": {
+            "type" : "array",
+            "items": {
+                "type" : "object" ,
+                "properties": {
+                    "id" : {
+                        "type" : "string" , 
+                        "description": "Ora neve"
+                    },
+                "tipus" : {
+                    "type" : "string" , 
+                    "enum": ["eloadas" , "gyakorlat"] , 
+                    "description": "Eloadas/Gyakorlat" 
+                },
+                "targy" : {
+                    "type" : "string" , 
+                    "description": "Targy neve" 
+                },
+                "idopont" : {
+                    "type" : "object" ,
+                    "properties": {
+                        "nap" :{
+                            "type" : "string"  ,
+                            "enum": ["Hetfo", "Kedd", "Szerda", "Csutortok", "Pentek"],
+                            "description": "Het napja"
+                          },
+                          "tol": {
+                            "type": "string",
+                            "pattern": "^([01]?[0-9]|2[0-3]):[0-5][0-9]$",
+                            "description": "Kezdesi idopont"
+                          },
+                          "ig": {
+                            "type": "string",
+                            "pattern": "^([01]?[0-9]|2[0-3]):[0-5][0-9]$",
+                            "description": "Befejezesi idopont"
+                          }
+                        },
+                        "required": ["nap", "tol", "ig"]
+                      },
+                      "helyszin": {
+                        "type": "string",
+                        "description": "Helyszin"
+                      },
+                      "oktato": {
+                        "type": "string",
+                        "description": "Oktato neve"
+                      },
+                      "szak": {
+                        "type": "string",
+                        "description": "Szak neve"
+                      }
+                    },
+                    "required": ["id", "tipus", "targy", "idopont", "helyszin", "oktato", "szak"]
+                  }
+                }
+              },
+              "required": ["KS_orarend"]
+            }
