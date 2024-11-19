@@ -1,0 +1,22 @@
+<class>
+    <student id="1">
+        <keresztnev>Sandor</keresztnev>
+        <vezeteknev>Kola</vezeteknev>
+        <becenev>Sanyi</becenev>
+        <kor>22</kor>
+    </student>
+
+    <student id="2">
+        <keresztnev>Bence</keresztnev>
+        <vezeteknev>Varga</vezeteknev>
+        <becenev>Beni</becenev>
+        <kor>23</kor>
+    </student>
+
+    <student id="3">
+        <keresztnev>Marton</keresztnev>
+        <vezeteknev>Garamszegi</vezeteknev>
+        <becenev>Csucsu</becenev>
+        <kor>24</kor>
+    </student>
+</class>

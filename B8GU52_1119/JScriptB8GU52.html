@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orarend Kimenet</title>
+</head>
+<body>
+    <h1>B8GU52 Orarend 2024</h1>
+    <div id="output"></div>
+
+    <script>
+
+        const orarendData = {
+            "KS_orarend": [
+                {
+                    "id": "Oracle",
+                    "tipus": "eloadas",
+                    "targy": "Oracle rendszergazda",
+                    "idopont": { "nap": "Hetfo", "tol": "8:00", "ig": "10:00" },
+                    "helyszin": "Inf/103",
+                    "oktato": "Dr. Kovacs Laszlo Jozsef",
+                    "szak": "Mernokinformatikus BsC"
+                },
+                {
+                    "id": "KorszInf",
+                    "tipus": "eloadas",
+                    "targy": "Korszeru Informacios Technologiak",
+                    "idopont": { "nap": "Hetfo", "tol": "12:00", "ig": "14:00" },
+                    "helyszin": "Inf/15",
+                    "oktato": "Arvai Laszlo Lajos",
+                    "szak": "Mernokinformatikus BsC"
+                },
+                {
+                    "id": "XML",
+                    "tipus": "eloadas",
+                    "targy": "Adatkezeles XML-ben",
+                    "idopont": { "nap": "Kedd", "tol": "10:00", "ig": "12:00" },
+                    "helyszin": "Inf/103",
+                    "oktato": "Dr. Bednarik Laszlo",
+                    "szak": "Mernokinformatikus BsC"
+                },
+                {
+                    "id": "XML",
+                    "tipus": "gyakorlat",
+                    "targy": "Adatkezeles XML-ben",
+                    "idopont": { "nap": "Kedd", "tol": "12:00", "ig": "14:00" },
+                    "helyszin": "Inf/103",
+                    "oktato": "Dr. Bednarik Laszlo",
+                    "szak": "Mernokinformatikus BsC"
+                },
+                {
+                    "id": "Oracle",
+                    "tipus": "gyakorlat",
+                    "targy": "Oracle rendszergazda",
+                    "idopont": { "nap": "Kedd", "tol": "13:00", "ig": "15:00" },
+                    "helyszin": "Inf/202",
+                    "oktato": "Szucs Miklos",
+                    "szak": "Mernokinformatikus BsC"
+                }
+        
+            ]
+        };
+
+        const outputDiv = document.getElementById("output");
+
+        orarendData.KS_orarend.forEach(ora => {
+            const oraDetails = `
+                <p><strong>Targy:</strong> ${ora.targy}</p>
+                <p><strong>Helyszin:</strong> ${ora.helyszin}</p>
+                <p><strong>Oktato:</strong> ${ora.oktato}</p>
+                <p><strong>Szak:</strong> ${ora.szak}</p>
+                <hr>
+            `;
+            outputDiv.innerHTML += oraDetails;
+        });
+    </script>
+</body>
+</html>
