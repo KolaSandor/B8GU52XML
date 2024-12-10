@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<B8GU52_Étterem>
+    <Étterem id="E001">
+        <Név>Gourmet Bistro</Név>
+        <Telefonszám>06301234567</Telefonszám>
+        <Cím>
+            <Irányítószám>12345</Irányítószám>
+            <Utca>Elm Avenue</Utca>
+            <Házszám>34</Házszám>
+        </Cím>
+    </Étterem>
+    <Étterem id="E002">
+        <Név>Pepper's Grill</Név>
+        <Telefonszám>06309876543</Telefonszám>
+        <Cím>
+            <Irányítószám>54321</Irányítószám>
+            <Utca>Oak Street</Utca>
+            <Házszám>12</Házszám>
+        </Cím>
+    </Étterem>
+    <Étterem id="E003">
+        <Név>Sunrise Café</Név>
+        <Telefonszám>06701239876</Telefonszám>
+        <Cím>
+            <Irányítószám>11223</Irányítószám>
+            <Utca>Willow Lane</Utca>
+            <Házszám>89</Házszám>
+        </Cím>
+    </Étterem>
+    <Alkalmazott Munka="E001" id="A001">
+        <Név>Emily Watson</Név>
+        <TAJ>M789</TAJ>
+        <Bankszámlaszám>DEF987654</Bankszámlaszám>
+        <SzületésiIdő>1985-03-10</SzületésiIdő>
+        <Beosztás>Nem</Beosztás>
+    </Alkalmazott>
+    <Alkalmazott Munka="E002" id="A002">
+        <Név>Michael Brown</Név>
+        <TAJ>M456</TAJ>
+        <Bankszámlaszám>DEF123456</Bankszámlaszám>
+        <SzületésiIdő>1992-11-20</SzületésiIdő>
+        <Beosztás>Igen</Beosztás>
+    </Alkalmazott>
+    <Alkalmazott Munka="E003" id="A003">
+        <Név>Sarah Johnson</Név>
+        <TAJ>M789</TAJ>
+        <Bankszámlaszám>DEF678901</Bankszámlaszám>
+        <SzületésiIdő>2000-06-15</SzületésiIdő>
+        <Beosztás>Nem</Beosztás>
+    </Alkalmazott>
+    <Rendelés Felszolgálva="E001" Rendelve="V001" id="R001">
+        <Ár>3000</Ár>
+        <Idő>2024.01.01</Idő>
+        <Státusz>Aktív</Státusz>
+    </Rendelés>
+    <Rendelés Felszolgálva="E002" Rendelve="V002" id="R002">
+        <Ár>12000</Ár>
+        <Idő>2024.02.20</Idő>
+        <Státusz>Kiszállítva</Státusz>
+    </Rendelés>
+    <Rendelés Felszolgálva="E003" Rendelve="V003" id="R003">
+        <Ár>5800</Ár>
+        <Idő>2024.03.15</Idő>
+        <Státusz>Kiszállítva</Státusz>
+    </Rendelés>
+    <Termék id="T001">
+        <Név>Deluxe Pizza</Név>
+        <Típus>Főétel</Típus>
+        <Alapanyag>pepperoni</Alapanyag>
+        <Alapanyag>mozzarella</Alapanyag>
+        <Alapanyag>olívabogyó</Alapanyag>
+    </Termék>
+    <Termék id="T002">
+        <Név>Veggie Delight</Név>
+        <Típus>Előétel</Típus>
+        <Alapanyag>spenót</Alapanyag>
+        <Alapanyag>paradicsom</Alapanyag>
+    </Termék>
+    <Termék id="T003">
+        <Név>Tropical Salad</Név>
+        <Típus>Köret</Típus>
+        <Alapanyag>saláta</Alapanyag>
+        <Alapanyag>mangó</Alapanyag>
+        <Alapanyag>uborka</Alapanyag>
+    </Termék>
+    <Vendég id="V001">
+        <Név>Laura Smith</Név>
+        <Email>laura@example.com</Email>
+        <Telefonszám>06305556677</Telefonszám>
+    </Vendég>
+    <Vendég id="V002">
+        <Név>Daniel Carter</Név>
+        <Email>daniel@example.com</Email>
+        <Telefonszám>06701233445</Telefonszám>
+    </Vendég>
+    <Vendég id="V003">
+        <Név>Sophia White</Név>
+        <Email>sophia@example.com</Email>
+        <Telefonszám>06307778899</Telefonszám>
+    </Vendég>
+    <Termékek rendelés_id="R001" termék_id="T001">
+        <Ár>3200</Ár>
+    </Termékek>
+    <Termékek rendelés_id="R002" termék_id="T002">
+        <Ár>2800</Ár>
+    </Termékek>
+    <Termékek rendelés_id="R003" termék_id="T003">
+        <Ár>4500</Ár>
+    </Termékek>
+</B8GU52_Étterem>
