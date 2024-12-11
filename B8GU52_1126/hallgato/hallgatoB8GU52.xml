@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="hallgatoB8GU52.xsl" type="text/xsl"?>
+
+<class>
+    <student id="01">
+        <vezeteknev>Kola</vezeteknev>
+        <keresztnev>Sándor</keresztnev>
+        <becenev>Kola</becenev>
+        <kor>23</kor>
+        <osztondij>0</osztondij>
+    </student>
+
+    <student id="02">
+        <vezeteknev>Nagy</vezeteknev>
+        <keresztnev>Zoltán</keresztnev>
+        <becenev>Zolika</becenev>
+        <kor>24</kor>
+        <osztondij>60000</osztondij>
+    </student>
+
+    <student id="03">
+        <vezeteknev>Réz</vezeteknev>
+        <keresztnev>Csongor</keresztnev>
+        <becenev>Csongi</becenev>
+        <kor>20</kor>
+        <osztondij>40000</osztondij>
+    </student>
+</class>

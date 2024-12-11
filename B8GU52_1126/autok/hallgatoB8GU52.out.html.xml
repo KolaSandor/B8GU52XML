@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hallgatok>
+    <hallgato id="01">
+        <nev>Kola Sándor</nev>
+        <neptunkod>B8GU52</neptunkod>
+        <szak>Informatika</szak>
+    </hallgato>
+    <hallgato id="02">
+        <nev>Réz Csongor</nev>
+        <neptunkod>XYZ456</neptunkod>
+        <szak>Villamosmérnök</szak>
+    </hallgato>
+    <hallgato id="03">
+        <nev>Nagy Zoltán</nev>
+        <neptunkod>DEF789</neptunkod>
+        <szak>Gépészmérnök</szak>
+    </hallgato>
+</hallgatok>
